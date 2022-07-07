@@ -6,6 +6,7 @@ body {
     padding: 0px;
 }
 
+/* header area start  */
 .header_area {
     color: white;
     text-align: center;
@@ -26,7 +27,8 @@ body {
     margin-bottom: 60px;
 }
 
-.btn_link a {
+.btn_link {
+    border: none;
     color: white;
     font-size: 20px;
     background-color: orange;
@@ -35,7 +37,16 @@ body {
     text-decoration: none;
 }
 
+/* header area end  */
 /* donate area start  */
+.donate_bg {
+    background-image: url(../img/bg2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
 .donate_area {
     text-align: center;
     margin-top: 100px;
@@ -101,6 +112,7 @@ body {
 }
 
 /* donate area end  */
+/* donate plan area start */
 .header_donate_plan {
 
     text-align: center;
@@ -138,13 +150,85 @@ body {
 }
 
 #donate_item_1 {
-    color: black;
+    /* color: black; */
     background-color: rgb(191, 236, 236);
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
 }
 
+#donate_item_3 {
+
+    background-color: antiquewhite;
+}
+
+/* donate plan area end  */
+/* experience area start  */
+.experience_area {
+    margin: 100px;
+}
+
+.experience_area .container_flex {
+    display: flex;
+}
+
+.experience_area .half_width {
+    width: 50%;
+}
+
+.experience_area img {
+    width: 70%;
+    margin-left: 150px;
+}
+
+.experience_area .special_font {
+    font-size: 150px;
+    font-weight: bolder;
+    margin: 0px;
+    padding: 0px;
+}
+
+.experience_area .special_header {
+    color: gray;
+    font-size: 35px;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+.experience_area .peragarph {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.experience_area #part_1 h1 {
+    font-size: 50px;
+    color: rgb(96, 158, 96);
+    margin: 0px;
+}
+
+.experience_area #part_2 h1 {
+    font-size: 50px;
+    color: orange;
+    margin: 0px;
+}
+
+.experience_area #part_3 h1 {
+    font-size: 50px;
+    color: tomato;
+    margin: 0px;
+}
+
+.experience_area .peragarph p {
+    color: gray;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+/* experience area end  */
+/* get my update part start  */
 .get_my_update {
     text-align: center;
+    padding-bottom: 80px;
 }
 
 .get_my_update h1 {
@@ -166,10 +250,21 @@ body {
     margin-bottom: 50px;
 }
 
-#donate_item_3 {
-    margin: 10px;
+/* get my update part start */
+
+
+.input_email {
+    /* color: white; */
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(231, 228, 228);
+    font-size: 20px;
+    padding: 20px 80px;
+
+
 }
 
+/* footer area start  */
 .footer_area {
     text-align: center;
     background-color: black;
@@ -185,3 +280,5 @@ body {
     font-size: 18px;
     color: rgb(156, 153, 153);
 }
+
+/* footer area end  */
