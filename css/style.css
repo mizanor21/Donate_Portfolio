@@ -143,6 +143,45 @@ body {
     letter-spacing: 1px;
 }
 
+.get_my_update {
+    text-align: center;
+}
+
+.get_my_update h1 {
+    font-size: 50px;
+}
+
+.get_my_update p {
+    color: gray;
+    font-size: 25px;
+}
+
+.get_my_update .form {
+    background-color: antiquewhite;
+    padding: 120px;
+    border-radius: 5px;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 #donate_item_3 {
     margin: 10px;
+}
+
+.footer_area {
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+}
+
+.footer_area h1 {
+    font-style: italic;
+    font-size: 40px;
+}
+
+.footer_area p {
+    font-size: 18px;
+    color: rgb(156, 153, 153);
 }
