@@ -101,3 +101,48 @@ body {
 }
 
 /* donate area end  */
+.header_donate_plan {
+
+    text-align: center;
+}
+
+.header_donate_plan h1 {
+    font-size: 50px;
+}
+
+.header_donate_plan p {
+    color: gray;
+    font-size: 25px;
+}
+
+.donate_plan {
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+.donate_plan .item {
+    background-color: rgb(238, 238, 247);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 10px;
+
+}
+
+.donate_plan .item p {
+    color: rgb(87, 85, 85);
+    font-size: 20px;
+}
+
+#donate_item_1 {
+    color: black;
+    background-color: rgb(191, 236, 236);
+    letter-spacing: 1px;
+}
+
+#donate_item_3 {
+    margin: 10px;
+}
