@@ -30,7 +30,74 @@ body {
     color: white;
     font-size: 20px;
     background-color: orange;
-    padding: 20px 30px;
+    padding: 20px 40px;
     border-radius: 5px;
     text-decoration: none;
 }
+
+/* donate area start  */
+.donate_area {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.donate_area h1 {
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.donate_area p {
+    font-size: 24px;
+    color: gray;
+    letter-spacing: 1px;
+}
+
+.donate_area hr {
+    margin-left: 300px;
+    margin-right: 300px;
+    /* margin-top: 30px; */
+    margin-bottom: 50px;
+}
+
+.donate_area input {
+    width: 50%;
+    height: 30px;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    outline-width: 0;
+    border: none;
+    /* background-color: rgb(253, 251, 247);
+     border-radius: 5px; */
+}
+
+.donate_amount {
+    display: flex;
+
+    /* text-align: center; */
+}
+
+.donate_area .donate_amount {
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.donate_area .donate_amount p {
+    text-align: center;
+    font-size: 50px;
+    color: gray;
+    background-color: rgb(238, 238, 247);
+    border-radius: 5px;
+    padding: 50px;
+    margin: 10px;
+}
+
+.donate_area .donate_amount #item_2 {
+    border: 3px solid orange;
+    background-color: rgb(250, 243, 230);
+}
+
+/* donate area end  */
